@@ -3,17 +3,26 @@ const path = require("path");
 const iosCaps = {
   platformName: "iOS",
   automationName: "XCUITest",
-  deviceName: process.env.IOS_DEVICE_NAME || "iPhone 6s",
-  platformVersion: process.env.IOS_PLATFORM_VERSION || "11.1",
-  app: undefined // Will be added in tests
+  deviceName: process.env.IOS_DEVICE_NAME || "iPhone 8 plus",
+  platformVersion: process.env.IOS_PLATFORM_VERSION || "12.1.2",
+  app: undefined, // Will be added in tests
+  xcodeOrgId: "FR3SC3EULN",
+  xcodeSigningId: "iPhone Developer: Haiyan He (6LTM3V5X6G)",
+  udid:"ebcb6e8eedee1183aed3802da4f3f41c06b68cb3"
+
 };
 
 const iosWebCaps = {
   platformName: "iOS",
   automationName: "XCUITest",
-  deviceName: process.env.IOS_DEVICE_NAME || "iPhone 6s",
-  platformVersion: process.env.IOS_PLATFORM_VERSION || "11.1",
-  browserName: "Safari"
+  deviceName: process.env.IOS_DEVICE_NAME || "iPhone 8 plus",
+  platformVersion: process.env.IOS_PLATFORM_VERSION || "12.1.2",
+  browserName: "Safari",
+  xcodeOrgId: "FR3SC3EULN",
+  xcodeSigningId: "iPhone Developer: Haiyan He (6LTM3V5X6G)",
+  udid:"ebcb6e8eedee1183aed3802da4f3f41c06b68cb3",
+  safariInitialUrl:"about:blank",
+  startIWDP:false
 };
 
 // Leave the Android platformVersion blank and set deviceName to a random string (Android deviceName is ignored by Appium but is still required)

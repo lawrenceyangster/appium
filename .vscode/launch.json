@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "Debug",
             "type": "node",
@@ -34,7 +35,7 @@
             "name": "Test Current File",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceFolder}/node_modules/.bin/_mocha",
+            "program": "${workspaceFolder}/sample-code/javascript-webdriverio/node_modules/.bin/_mocha",
             "args": [
                 "--require", "babel-core/register",
                 "--timeout", "999999",

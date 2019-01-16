@@ -20,7 +20,7 @@ self.driver.get("http://appium.io/")
 ```javascript
 // Javascript
 // webdriver.io example
-driver.url("http://appium.io");
+driver.url("https://www.baidu.com/");
 
 
 
