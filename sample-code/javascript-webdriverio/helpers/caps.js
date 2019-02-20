@@ -4,7 +4,7 @@ const iosCaps = {
   platformName: "iOS",
   automationName: "XCUITest",
   deviceName: process.env.IOS_DEVICE_NAME || "iPhone 8 plus",
-  platformVersion: process.env.IOS_PLATFORM_VERSION || "12.1.2",
+  platformVersion: process.env.IOS_PLATFORM_VERSION || "12.1.4",
   app: undefined, // Will be added in tests
   xcodeOrgId: "FR3SC3EULN",
   xcodeSigningId: "iPhone Developer: Haiyan He (6LTM3V5X6G)",
@@ -16,7 +16,7 @@ const iosWebCaps = {
   platformName: "iOS",
   automationName: "XCUITest",
   deviceName: process.env.IOS_DEVICE_NAME || "iPhone 8 plus",
-  platformVersion: process.env.IOS_PLATFORM_VERSION || "12.1.2",
+  platformVersion: process.env.IOS_PLATFORM_VERSION || "12.1.4",
   browserName: "Safari",
   xcodeOrgId: "FR3SC3EULN",
   xcodeSigningId: "iPhone Developer: Haiyan He (6LTM3V5X6G)",
